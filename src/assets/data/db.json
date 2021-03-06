@@ -1,0 +1,40 @@
+{
+    "categoria": [
+        {
+            "id": 1,
+            "descricao": "Biografias"
+        },
+        {
+            "id": 2,
+            "descricao": "Coleções"
+        },
+        {
+            "id": 3,
+            "descricao": "Comportamento"
+        },
+        {
+            "id": 4,
+            "descricao": "Contos"
+        },
+        {
+            "id": 5,
+            "descricao": "Crítica Literária"
+        },
+        {
+            "id": 6,
+            "descricao": "Ficção Científica"
+        },
+        {
+            "id": 7,
+            "descricao": "Folclore"
+        },
+        {
+            "id": 8,
+            "descricao": "Genealogia"
+        },
+        {
+            "id": 9,
+            "descricao": "Tecnologia"
+        }
+    ]
+}
