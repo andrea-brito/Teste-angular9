@@ -23,7 +23,7 @@ com ele você vai startar a lista de generos dos livros dinâmicamente
     ng serve --open ou npm start como preferir 
 com esses comandos você vai startar o projeto e abrir automaticamente o browser 
 
-<h3>Informações importantes<h3>
+<h3>Informações importantes</h3>
 
 - Era de livre escolha a API externa a ser consumida então 
 eu optei por escolhar a seguinte API: https://restcountries.eu/rest/v2/name/united
