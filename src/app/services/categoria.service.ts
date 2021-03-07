@@ -17,7 +17,7 @@ export class CategoriaService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   }
 
-  // Obtem todos os carros
+  
   getCategorias(): Observable<Categoria[]> {
     return this.httpClient.get<Categoria[]>(this.url)
       .pipe(
@@ -25,7 +25,7 @@ export class CategoriaService {
         catchError(this.handleError))
   }
 
-  // Obtem um carro pelo id
+  
   getCategoriaById(id: number): Observable<Categoria> {
     return this.httpClient.get<Categoria>(this.url + '/' + id)
       .pipe(
@@ -34,7 +34,7 @@ export class CategoriaService {
       )
   }
 
-  // salva um carro
+ 
   saveCategoria(categoria: Categoria): Observable<Categoria> {
     return this.httpClient.post<Categoria>(this.url, JSON.stringify(categoria), this.httpOptions)
       .pipe(

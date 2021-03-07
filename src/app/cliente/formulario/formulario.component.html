@@ -25,10 +25,12 @@
       <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
     </div>
     <div class="mb-3">
-        <label for="autor" class="form-label">Edição:</label>
-      <input type="number" class="form-control" id="autor" formControlName="autor">
+        <label for="autor" class="form-label">Autor:</label>
+      <input type="text" class="form-control" id="autor" formControlName="autor">
     </div>
+    <label for="autor" class="form-label">Gênero literário:</label>
         <div class="mb-3" style="display: flex;">
+          
             <tr *ngFor="let categoria of categorias" style="flex:1; width: 200px; margin: 10px;">
                 <td [formGroup]="formLivros">
                     <input class="form-check-input" type="radio" name="categoria" value="{{categoria.id}}" id="categoria" formControlName="categoria">
@@ -38,6 +40,6 @@
         </div>
 
      
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
   </form>
   
