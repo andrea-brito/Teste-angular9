@@ -7,8 +7,10 @@
         <li>Consumo de API externa</li>
     </ul>
 # Como rodar a aplicação em sua máquina?
+
 - No diretório da sua preferencia Clone o repositório usando o seguinte comando em seu terminal:
    git clone https://github.com/andrea-brito/Teste-angular9.git
+
 - Em seguida em seu terminal digite o comando:
     npm install 
 com isso você estará baixando todas as dependencias do projeto
@@ -22,8 +24,10 @@ com ele você vai startar a lista de generos dos livros dinâmicamente
 com esses comandos você vai startar o projeto e abrir automaticamente o browser 
 
 <h3>Informações importantes<h3>
+
 - Era de livre escolha a API externa a ser consumida então 
 eu optei por escolhar a seguinte API: https://restcountries.eu/rest/v2/name/united
 que é uma API de listagem de países. 
+
 - Alguns item da especificação não estavam bem elaborados mas eu fiz de acordo com o meu entendimento 
 do que era proposto .
