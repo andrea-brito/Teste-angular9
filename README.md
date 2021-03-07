@@ -9,18 +9,18 @@
 # Como rodar a aplicação em sua máquina?
 
 - No diretório da sua preferencia Clone o repositório usando o seguinte comando em seu terminal:
-   git clone https://github.com/andrea-brito/Teste-angular9.git
+  <strong> git clone https://github.com/andrea-brito/Teste-angular9.git </strong>
 
 - Em seguida em seu terminal digite o comando:
-    npm install 
-com isso você estará baixando todas as dependencias do projeto
+   <strong> npm install </strong>
+com isso você estará baixando todas as dependencias do projeto.
 
 - Em um terminal em separado mas no mesmo diretório use o comando:
-     json-server --watch src/assets/data/db.json
-com ele você vai startar a lista de generos dos livros dinâmicamente
+     <strong>json-server --watch src/assets/data/db.json</strong>
+com ele você vai startar a lista de generos dos livros dinâmicamente.
 
 - No primeiro terminal digite o comando:
-    ng serve --open ou npm start como preferir 
+   <strong> ng serve --open</strong> ou <strong>npm start</strong> como preferir 
 com esses comandos você vai startar o projeto e abrir automaticamente o browser 
 
 <h3>Informações importantes</h3>
